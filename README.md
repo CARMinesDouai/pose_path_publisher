@@ -34,7 +34,7 @@ pose_path_publisher
         
 3. Usage
 
-    rosrun pose_publisher pose_publisher
+    roslaunch pose_publisher pose_publisher.launch
 
 4. Related Documentation
 
