@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 2.8.3)
-project(pose_path_publisher)
+project(pose_publisher)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
@@ -23,7 +23,7 @@ include_directories(include
   )
 
 add_executable(${PROJECT_NAME}
-  src/pose_path_publisher.cpp
+  src/pose_publisher.cpp
   )
 
 target_link_libraries(${PROJECT_NAME}

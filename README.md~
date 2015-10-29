@@ -26,7 +26,7 @@ pose_path_publisher
 
       ~map_frame (std::string, default: map)
       
-        The frame attached to the map or odometry frame. 
+        The frame attached to the map or odometry (put the name odom in lqunch file) frame. 
 
       ~base_frame (std::string, default: base_link)
       
